@@ -1,0 +1,83 @@
+/* Styles for the Signup section */
+.SignUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Reduced height to make it smaller */
+  background-color: #fff; /* Set background color to white */
+}
+
+/* Styles for the SignUp-content div */
+.SignUp-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 800px; /* Reduced max-width to make it smaller */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for the SignUp-form div */
+.SignUp-form {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(230, 227, 248, 0.5); /* Set background color to the website's navbar color */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(230, 227, 248, 0.5);
+}
+
+/* Styles for the form fields */
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjusted left position to align icons properly */
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 40px 10px 30px; /* Adjusted padding to make room for icons */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styles for the form button */
+.form-button {
+  text-align: center;
+}
+
+.form-button input {
+  padding: 10px 30px;
+  background-color: rgba(230, 227, 248, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Styles for the SignUp-image div */
+.SignUp-image {
+  flex: 1;
+  text-align: center;
+}
+
+.SignUp-image img {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 100%; /* Ensuring the image doesn't overflow */
+}
+
+/* Styles for the SignUp-image-link */
+.SignUp-image-link {
+  display: block;
+  color: #007bff;
+  margin-top: 10px;
+}
